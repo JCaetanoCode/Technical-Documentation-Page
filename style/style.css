@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+  
+}
+
+header{
+    position: relative;
+    top: 0px;
+    left: 60px;
+    font-family: monospace;
+    font-size: 22px;
+}
+
+#main-doc {
+    top: 10px;
+    position: absolute;
+    margin-left: 350px;
+    margin-right: 50px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+#main-doc p{
+    font-size: 18px;
+}
+
+.main-section{
+
+}
+
+#navbar {
+    border-right: solid;
+    border-color: gray;
+    position: fixed;
+    top: 10px;
+    left: 0px;
+    min-width: 290px;
+    width: 330px;/*largura menu*/
+    height: 100%;/*comprimento menu*/
+    max-height: 580px;/*comprimento max menu*/
+    background-color: white;
+}
+
+#navbar header{
+    font-size: 18px;
+}
+
+#navbar ul{
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid;
+    height: 210px;
+    height: 90%;
+    padding: 0;/*esta funçao tira as bolinhas no inicio da palavra*/
+
+}
+
+#navbar li{
+    color: gray;
+    list-style: none;
+    position: relative;
+    border-top: 1px solid;/*add linhas entre palavras*/
+    width: 100%;
+    list-style: none;
+}
+
+#navbar a{
+    padding: 12px 32px;/*afasta do canto esquerdo*/
+    color: gray;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;/*deixa toda area em volta do texto clicavel*/
+    font-size: 20px;
+}
+
+#link-lorem{
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+}
+
